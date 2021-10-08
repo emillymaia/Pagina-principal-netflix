@@ -45,8 +45,8 @@ header nav a:hover {
 /*telona filme principal (em destaque)*/
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url('/img/capa-house.jpg') ;
-    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url('/img/capa-friends.jpg') ;
+    height: 500px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -101,4 +101,10 @@ header nav a:hover {
 
 .carrossel {
     margin-top: 5px;
+}
+
+.legenda-carrossel {
+    font-family: 'Arial', Times, serif;
+    font-size: x-large;
+    
 }
